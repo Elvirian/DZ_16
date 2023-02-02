@@ -6,7 +6,7 @@ public class Main {
         for (int i = 0; i < array1.length; i++) {
             array1[i] = (int) Math.round((Math.random() * 200) - 100);
         }
-        int[] array2 = new int[2_000];
+        int[] array2 = new int[20_000];
         for (int i = 0; i < array2.length; i++) {
             array2[i] = (int) Math.round((Math.random() * 200) - 100);
         }
